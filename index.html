@@ -19,45 +19,69 @@
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="images/download.png" alt="" height="50"></a>
+
+
+
+                            <!-- dropdown -->
+            <!-- Default dropend button -->
+
+<div class="btn-group dropend">
+  <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+   Select Animal
+  </button>
+  <ul class="dropdown-menu bg-secondary">
+    <!-- Dropdown menu links -->
+    
+      <li class="nav-item">
+        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active text-white" aria-current="page" href="#Goats">Goats</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active text-white" aria-current="page" href="#Cows">Cows</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active text-white" aria-current="page" href="#Buffalo">Buffalo</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active text-white" aria-current="page" href="#camel">Camel</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active text-white" aria-current="page" href="#eee">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active text-white" aria-current="page" href="#contact">Contact Us</a>
+      </li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent"></div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="#Goats">Goats</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="#Cows">Cows</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="#Buffalo">Buffalo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="#eee">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active text-white" aria-current="page" href="#contact">Contact Us</a>
-                </li>
-               
-               
-                
-              </ul>
+            
+            
+              
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
               </form>
             </div>
-          </div>
+          
+        </div>
         </nav>
 
        </section>
 
           <!-- carousel slider -->
-          <section class="container mt-5">
+          <section class="container-1">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -123,9 +147,9 @@
 
     <main>
       
-      <section class="container mt-4 border bg-info" id="Cows">
-        <h1 class="mb-3 text-light text-center p-3">EID Offer</h1>
-        <h1 class="text-center mb-3 text-light p-2" >Collected Cows</h1>
+      <section class="container mt-4 border" id="Cows">
+        <h1 class="text-primary text-center p-3">EID Offer</h1>
+        <h1 class="text-center text-primary p-2" >Collected Cows</h1>
         <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
           <div class="col">
             <div class="card h-100 border-0 shadow">
@@ -412,6 +436,95 @@
 
       </section>
 
+      <!-- Camelll------------------------------- -->
+      <section class="container border mt-4" id="camel">
+        <h1 class="text-center p-4 text-primary"> Collected Camel</h1>
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/camel-1.jpeg" class="card-img-top" alt="..." height="300">
+              <div class="card-body">
+                <h5 class="card-title">Arabian Camel</h5>
+                <p class="card-text">
+                  <h2>$1200</h2>
+                  <button class="btn btn-primary">Order Now->></button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/camel-2.jpeg" class="card-img-top" alt="..." height="300">
+              <div class="card-body">
+                <h5 class="card-title">Arabian Fatty Camel</h5>
+                <p class="card-text">
+                  <h2>$1600</h2>
+                  <button class="btn btn-primary">Order Now->></button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/camel-3.jpeg" class="card-img-top" alt="..." height="300">
+              <div class="card-body">
+                <h5 class="card-title"> Austrian Camel</h5>
+                <p class="card-text">
+                  <h2>$2000</h2>
+                  <button class="btn btn-primary">Order Now->></button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/camel-4.jpeg" class="card-img-top" alt="..." height="300">
+              <div class="card-body">
+                <h5 class="card-title"> Fatty Camel</h5>
+                <p class="card-text">
+                  <h2>$1200</h2>
+                  <button class="btn btn-primary">Order Now->></button>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/camel-5.jpeg" class="card-img-top" alt="..." height="300">
+              <div class="card-body">
+                <h5 class="card-title"> Holistian Camel</h5>
+                <p class="card-text">
+                  <h2>$1500</h2>
+                  <button class="btn btn-primary">Order Now->></button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/camel-6.jpeg" class="card-img-top" alt="..." height="300">
+              <div class="card-body">
+                <h5 class="card-title"> Omani Camel</h5>
+                <p class="card-text">
+                  <h2>$1800</h2>
+                  <button class="btn btn-primary">Order Now->></button>
+                </p>
+              </div>
+            </div>
+          </div>
+          
+
+          
+        
+         
+        </div>
+
+      </section>
+
 
 
       <section class="container bg-primary text-center mt-5 p-4 rounded rounded-4" id="eee">
@@ -432,6 +545,8 @@
         <i class="fas fa-phone-alt  ms-3"> Contact</i>
 
       </section>
+
+
  
     </main>
 
